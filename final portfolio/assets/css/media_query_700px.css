@@ -1,4 +1,7 @@
 @media screen and (max-width: 700px) {
+  #logoContainer span{
+    font-size: 1.5rem;
+  }
   main{
     flex-direction: column;
     height: 800px;
