@@ -26,6 +26,7 @@
 
   .greet div button{
     width: 80%;
+    background-color: red;
   }
 
 }
