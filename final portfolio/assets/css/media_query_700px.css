@@ -24,4 +24,8 @@
     font-size: 2.5rem;
   }
 
+  .greet div button{
+    width: 80%;
+  }
+
 }
