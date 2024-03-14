@@ -79,6 +79,14 @@
   60%, 100%{ transform: rotate( 0.0deg)} 
 }
 
+@keyframes movey{
+  0%, 100%{
+    border-radius: 84% 38% 70% 43% / 55% 74% 59% 71%;
+  }
+  50%{
+    border-radius: 44% 45% 75% 50% / 60% 65% 50% 50%;
+  }
+}
 
 /* HOVER */
 #linkContainer a:hover{

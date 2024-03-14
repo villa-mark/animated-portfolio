@@ -243,7 +243,7 @@ main div.profile{
   box-shadow: 0px 5px 5px hsla(0, 0%, 0%, 0.546);
   /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
   visibility: hidden;
-  animation: slideRight 1s ease-out 3s 1 forwards;
+  animation: slideRight 1s ease-out 3s 1 forwards, movey 3s ease-out infinite forwards ;
 }
 
 img{
@@ -251,7 +251,6 @@ img{
   height: 100%;
   object-fit: contain;
   background-color: rgba(0, 0, 255, 0);
-  box-shadow: 10px 10px 10px red;
 
   visibility: hidden;
   animation: slideUp 1s ease-out 3s 1 forwards;
