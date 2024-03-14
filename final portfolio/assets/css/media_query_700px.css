@@ -27,5 +27,14 @@
   .greet div button{
     width: 80%;
   }
+  
+
+  .profile div{
+    animation: slideRight 1s ease-out 0.5s 1 forwards, movey 10s ease-out infinite forwards;
+  }
+
+  .image-container img{
+    animation: slideUp 1s ease-out 1.3s 1 forwards;
+  }
 
 }

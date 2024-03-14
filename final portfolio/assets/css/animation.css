@@ -83,8 +83,11 @@
   0%, 100%{
     border-radius: 84% 38% 70% 43% / 55% 74% 59% 71%;
   }
-  50%{
+  25%, 75%{
     border-radius: 44% 45% 75% 50% / 60% 65% 50% 50%;
+  }
+  50%{
+    border-radius: 50% 80% 40% 70% / 34% 30% 80% 30%;
   }
 }
 
@@ -95,10 +98,14 @@
   text-shadow: -5px 5px 10px black;
 }
 
-.greet div button:nth-child(6):hover,
+.greet div button:nth-child(6):hover{
+  background-color: #00BD95;
+  color: #20272F;
+}
+
 .greet div button:last-child:hover{
-  color: white;
-  background-color: rgb(40, 40, 40);
+  background-color: #20272F;
+  color: #00BD95;
 }
 
 

@@ -6,12 +6,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #20272F;
 }
 
 body{
   font-family: "Kanit", sans-serif;
   scroll-behavior: smooth;
+  background-color: #20272F;
 }
 
 nav, main, footer{
@@ -52,7 +52,7 @@ nav div{
   font-size: 2.5rem;
   letter-spacing: -2px;
   color: #00BD95;
-  animation: bounce 3s ease 2s infinite forwards, slideLeft 1s ease-out 1 forwards;
+  animation: bounce 3s ease 5s infinite forwards, slideLeft 1s ease-out 1 forwards;
 }
 
 #logoContainer #surname{
@@ -112,7 +112,6 @@ main{
   display: flex;
   height: 550px;
   justify-content: center;
-  /* background-color: red; */
 }
 
 main div{
@@ -168,7 +167,7 @@ main div.greet{
   font-size: 3rem;
   text-shadow: -3px 3px 5px rgb(0, 0, 0);
   transform-origin: 70% 70%; 
-  animation: wave 2.5s ease-out 3s infinite forwards;
+  animation: wave 2.5s ease-out 1s infinite forwards;
 }
 
 .greet div .name{
@@ -221,6 +220,7 @@ main div.greet{
 }
 
 .greet div button:nth-child(6){
+  background-color: #20272F;
   color: #00BD95;
 }
 
@@ -243,7 +243,7 @@ main div.profile{
   box-shadow: 0px 5px 5px hsla(0, 0%, 0%, 0.546);
   /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
   visibility: hidden;
-  animation: slideRight 1s ease-out 3s 1 forwards, movey 3s ease-out infinite forwards ;
+  animation: slideRight 1s ease-out 3s 1 forwards, movey 10s ease-out infinite forwards ;
 }
 
 img{
