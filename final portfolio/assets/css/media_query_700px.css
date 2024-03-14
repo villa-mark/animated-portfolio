@@ -4,7 +4,7 @@
   }
   main{
     flex-direction: column;
-    height: 800px;
+    height: 830px;
   }
   main div{
     width: 90%;
@@ -25,7 +25,8 @@
   }
 
   .greet div button{
-    width: 80%;
+    min-width: 200px;
+    max-width: 300px;
   }
   
 
