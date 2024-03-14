@@ -64,6 +64,26 @@ nav div{
   width: 900px;
 }
 
+#linkContainer .menuIcon{
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+#linkContainer .menuIcon div{
+  background-color: #00BD95;
+  width: 80%;
+  height: 5px;
+  margin: 5px auto;
+  border-radius: 20px;
+  box-shadow: -2px 2px 2px black;
+  transform: translate(0%, 160%);
+  
+}
+
 #linkContainer ul{
   display: flex;
   position: relative;
@@ -90,15 +110,14 @@ nav div{
 
 main{
   display: flex;
-  /* background-color: red; */
   height: 550px;
   justify-content: center;
+  /* background-color: red; */
 }
 
 main div{
   width: 50%;
   height: 95%;
-  /* background-color: blue; */
   margin: auto 10px; 
 }
 
@@ -114,12 +133,12 @@ main div.greet{
   display: block;
   width: 90%;
   height: 80%;
-  /* background-color: yellow; */
 }
 .greet div .hello span,
 .greet div .name,
 .greet div .course{
   text-shadow: -5px 5px 5px black;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .hello{
@@ -144,6 +163,7 @@ main div.greet{
 .greet div .hello i{
   position: absolute;
   color: #00BD95;
+  background-color: rgba(0, 0, 0, 0);
   margin-left: 19px;
   font-size: 3rem;
   text-shadow: -3px 3px 5px rgb(0, 0, 0);
@@ -175,6 +195,7 @@ main div.greet{
   line-height: 25px;
   color: white;
   font-style: italic;
+  background-color: rgba(0, 0, 0, 0);
 
   visibility: hidden;
   animation: slideLeft 1s ease-out 1.9s 1 forwards;

@@ -1,0 +1,60 @@
+@media screen and (max-width: 1000px) {
+  #linkContainer{
+    display: block;
+  }
+  #linkContainer ul{
+    display: none;
+  }
+
+  #linkContainer .menuIcon{
+    display: block;
+  }
+
+  /* MAIN */
+
+  main{
+    height: 500px;
+  }
+
+  .greet div{
+    height: 70%;
+  }
+
+  .greet div .hello{
+    margin-top: -50px;
+  }
+
+  .greet div .hello span{
+    font-size: 1.5rem;
+  }
+
+  .greet div .hello i{
+    font-size: 2rem;
+  }
+
+  .greet div .name{
+    font-size: 6vw;
+  }
+
+  .greet div .course{
+    font-size: 2rem;
+  }
+
+  .greet div .quote, .greet div .quote span {
+    font-size: 1rem;
+  }
+
+  .greet div button{
+    font-size: 1.3rem;
+    width: 50%;
+  }
+
+  .greet div button:last-child{
+    margin-top: 15px;
+  }
+  
+  .profile div{
+    width: 350px;
+    height: 350px;
+  }
+} 
