@@ -29,13 +29,14 @@
         <div id="line3"></div>
       </div>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Project</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
-  </nav> <div class="empty"></div>
+  </nav> <div class="empty" id="home"></div>
 
   <main>
     <div class="greet">
@@ -60,12 +61,109 @@
     </div>
   </main>
 
-  <section class="about">
-    
+  <section class="about headText" id="about">
+    <h3>Get To Know Me More</h3>
+    <h1><span>About</span> Me</h1>
+    <div class="infoContainer">
+      <p>I am a dedicated computer engineer with a strong passion for creating innovative technological solutions. 
+        With a solid foundation in computer science. I thrive in dynamic environments where I can apply my skills 
+        to solve complex technical challenges. My commitment to staying updated with the latest advancements in 
+        technology allows me to deliver cutting-edge solutions that meet the evolving needs of the digital landscape.</p>
+    </div>
+    <div class="educationContainer">
+      <h1>EDUCATION</h1>
+      <div>
+        <div>
+          <h1>College</h1>
+          <div><img src="assets/img/cite.jpg" alt="CITE"></div>
+          <p>CITE Technical Institute Inc.</p>
+          <p>2022 - present</p>
+          <p>San Jose, Cebu City, Cebu</p>
+          <p>Diploma in Computer Engineering</p>
+        </div>
+        <div>
+          <h1>Senior Secondary School</h1>
+          <div><img src="assets/img/manlapay.jpg" alt="Manlapay"></div>
+          <p>Manlapay National High School</p>
+          <p>2020 - 2022</p>
+          <p>Manlapay, Dalaguete, Cebu</p>
+          <p>Gas Strand</p>
+        </div>
+        <div>
+          <h1>Junior Secondary School</h1>
+          <div><img src="assets/img/manlapay.jpg" alt="Manlapay"></div>
+          <p>Manlapay National High School</p>
+          <p>2016 - 2020</p>
+          <p>Manlapay, Dalaguete, Cebu</p>
+        </div>
+        <div>
+          <h1>Primary School</h1>
+          <div><img src="assets/img/maloray.jpg" alt=""></div>
+          <p>Maloray National High School</p>
+          <p>2009 - 2016</p>
+          <p>Maloray, Dalaguete, Cebu</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>
+  <section class="skills headText" id="skills">
 
+      <h3>What Can I Do?</h3>
+      <h1>Skills</h1>
+
+      <div>
+        <h1>Programming Languages</h1>
+        <div class="programming">
+          <div><img src="assets/img/c.png" alt="C logo"></div>
+          <div><img src="assets/img/c++.png" alt="c++ logo"></div>
+          <div><img src="assets/img/css.png" alt="css logo"></div>
+          <div><img src="assets/img/html.png" alt="html logo"></div>
+          <div><img src="assets/img/java.png" alt="java logo"></div>
+          <div><img src="assets/img/js.png" alt="js logo"></div>
+          <div><img src="assets/img/php.png" alt="php logo"></div>
+        </div>
+      </div>
+
+      <div>
+        <h1>Other Skills</h1>
+        <div class="imgBackendContainer">
+          <div><img src="assets/img/figma.png" alt="figma logo"></div>
+          <div><img src="assets/img/photoshop.png" alt="photoshop logo"></div>
+          <div><img src="assets/img/media.png" alt="media logo"></div>
+          <div><img src="assets/img/word.png" alt="word logo"></div>
+          <div><img src="assets/img/power.png" alt="powerpoint logo"></div>
+          <div><img src="assets/img/exel.png" alt="exel logo"></div>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="project headText" id="project">
+    <h3>Browse My Works</h3>
+    <h1>Projects</h1>
+    <div>
+      <div>
+        <h1>Offense Management System</h1>
+        <div><img src="assets/img/offensemanagement.png" alt="Offense Management Img"></div>
+        <button>Github</button>
+      </div>
+      <div>
+        <h1>Guess Game</h1>
+        <div><img src="assets/img/guess.png" alt="Guess Game"></div>
+        <button>Github</button>
+      </div>
+      <div>
+        <h1>ToDo List</h1>
+        <div><img src="assets/img/todo.png" alt="ToDo List Img"></div>
+        <button>Github</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="contact headText" id="contact">
+    <h3>Get In Touch</h3>
+    <h1>Contacts</h1>
   </footer>
 
   <script src="assets/js/index.js"></script>
