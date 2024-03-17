@@ -101,8 +101,26 @@ nav div{
   margin: 5px auto;
   border-radius: 20px;
   box-shadow: -2px 2px 2px black;
-  transform: translate(0%, 160%);
-  
+}
+
+#linkContainer .closeIcon div{
+  position: absolute;
+  top: 10px;
+}
+
+.closeIcon #line1{
+  background-color: red;
+  transform: rotateZ(45deg);
+}
+
+.closeIcon #line2{
+  display: none;
+  background-color: red;
+}
+
+.closeIcon #line3{
+  background-color: red;
+  transform: rotateZ(-45deg);
 }
 
 #linkContainer ul{
@@ -125,6 +143,29 @@ nav div{
   font-size: 1.2rem;
   color: white;
   transition: 0.5s;
+}
+
+#burgermenu {
+  display: none;
+  position: fixed;
+  width: 200px;
+  height: 250px;
+  background-color: #171C22;
+  border-radius: 30px;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.542);
+  right: 20px;
+  top: 80px;
+}
+
+#burgermenu ul{
+  text-align: center;
+}
+
+#burgermenu ul li{
+  padding: 7px;
+  margin-top: 4px;
+  width: 90%;
+  top: -245px;
 }
 
 /* MAIN */
