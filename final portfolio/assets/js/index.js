@@ -1,7 +1,9 @@
 const menubar = document.getElementById("menubar");
 const burgermenu = document.getElementById("burgermenu");
+const closebar = document.getElementsByClassName("closeIcon");
 
 menubar.onclick = function() {
-  burgermenu.style.display = "block";
-  menubar.classList.add("closeIcon");
+  burgermenu.classList.toggle("closeIcon");
+  menubar.classList.toggle("closeIcon");
 };
+

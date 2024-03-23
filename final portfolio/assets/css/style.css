@@ -25,7 +25,7 @@ footer,
 .project{
   max-width: 1200px;
   margin: auto;
-  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.327);
+  /* box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.327); */
 }
 
 /* NAVIGATION */
@@ -92,6 +92,7 @@ nav div{
   right: 20px;
   width: 50px;
   height: 50px;
+  transition: 1s linear;
 }
 
 #linkContainer .menuIcon div{
@@ -584,7 +585,6 @@ section.about{
   margin: auto; 
   flex: 0 0 auto;
   overflow:auto;
-
 }
 
 .project > div::-webkit-scrollbar{
@@ -645,4 +645,51 @@ section.about{
 
 footer{
   text-align: center;
+  padding-top: 50px;
 }
+
+footer > div{
+  display: flex;
+  max-width: 900px;
+  padding: 30px;
+  margin: auto; 
+  flex: 0 0 auto;
+  flex-direction: column;
+  overflow:auto;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  background-color: #171C22;
+  border-radius: 20px;
+}
+
+footer > div > div{
+  display: flex;
+  position: relative;
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+footer > div > div > div{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+footer > div > div > div > img{
+  width: 100%;
+  object-fit: cover;
+}
+
+footer > div > div > a, 
+footer > div > div > p{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s linear;
+}
+
+
+
+

@@ -43,4 +43,26 @@
   }
   
 
+  /* ABOUT */
+
+  section.about{
+    padding: 0;
+  }
+
+  /* SKILLS */
+
+  section.skills{
+    padding: 0;
+  }
+
+  .skills > div > div> div:first-child{
+    margin-left: 0;
+  }
+
+  /* PROJECTS */
+
+  .project{
+    padding: 0;
+  }
+
 }
